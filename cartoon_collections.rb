@@ -19,10 +19,10 @@ end
 
 def find_the_cheese(given_array)
   # the array below is here to help
-  
+  message = nil
   cheese_types = ["cheddar", "gouda", "camembert"]
   given_array.each_with_index do | each_element,index |
-  cheese_types.find(each_element)!=nil ? given_array[index] : nil
+message+=  cheese_types.find(each_element)==nil ?   : given_array[index]
 end
-  
+  message
 end
