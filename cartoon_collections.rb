@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(given_array)
   given_array.select do |each_element|
-    "#{each_element.titleize}!"
+    "#{each_element.capitalize}!"
   end
   
 end
