@@ -22,7 +22,7 @@ def find_the_cheese(given_array)
   index=nil
   cheese_types = ["cheddar", "gouda", "camembert"]
   given_array.collect do | each_element |
-  cheese_types.select(each_element)
+  cheese_types.find_index(each_element)
 end
   
 end
