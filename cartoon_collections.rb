@@ -13,7 +13,7 @@ end
 
 def long_planeteer_calls(given_array)
   
-  given_array.
+  given_array.include? 
   
 end
 
