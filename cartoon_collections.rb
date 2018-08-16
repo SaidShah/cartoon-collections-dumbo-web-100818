@@ -22,7 +22,7 @@ def find_the_cheese(given_array)
  
   cheese_types = ["cheddar", "gouda", "camembert"]
   given_array.each do | each_element |
-return  cheese_types.find(each_element)
+  cheese_types.find(each_element)
 end
   
 end
