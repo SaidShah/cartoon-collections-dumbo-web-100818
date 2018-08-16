@@ -25,5 +25,4 @@ def find_the_cheese(given_array)
  message =  cheese_types.include?(each_element) ? given_array[index] : nil
 end
   
-  message
 end
