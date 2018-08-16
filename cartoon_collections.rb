@@ -21,8 +21,8 @@ def find_the_cheese(given_array)
   # the array below is here to help
   index=nil
   cheese_types = ["cheddar", "gouda", "camembert"]
-  given_array.each do | each_element |
- index =  cheese_types.find_index(each_element)
+  given_array.collect do | each_element |
+  cheese_types.select(each_element)
 end
-  given_array[index]
+  
 end
